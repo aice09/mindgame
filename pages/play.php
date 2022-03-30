@@ -167,7 +167,7 @@ function matchCards(img1, img2) {
         matchedCard++;
         if(matchedCard == 6 ) {
             gamestatus="finish";
-            timefinish = timer;
+            timefinish = timeTag.innerText;
             totalflips =flipsTag.innerText;
 
             $.ajax({
