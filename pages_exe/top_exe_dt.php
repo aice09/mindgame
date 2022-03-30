@@ -29,7 +29,6 @@ INNER JOIN users b
 ON a.score_userid = b.userid  
         WHERE 1=1
 GROUP BY score_userid 
-ORDER BY ltim ASC
         ";
 
 if(!empty($request['search']['value'])){
