@@ -1,0 +1,7 @@
+assets/
+.env
+fileshere/
+node_modules/
+package-lock.json
+src/css/
+vendor/
